@@ -1,0 +1,194 @@
+body {
+    background-color: #1b1b1b;
+    height: 1000px;
+    width: 900px;
+}
+
+#container {
+    height: 1000px;
+    width: 900px;
+}
+
+#top{
+    height: 61%;
+}
+
+.header {
+    background-color: #1a1a1a;
+    max-height: 67px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call_us {
+    margin: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    max-height: 30px;
+    background-color: #545454;
+    margin: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+
+}
+
+.nav_links li {
+    list-style-type: none;
+    margin: 0px;
+
+}
+
+ul .nav_links {
+    height: 30px;
+}
+
+a {
+    color: #a19d9b;
+    text-decoration: none;
+    border-right: solid 1px grey;
+    font-family: Arial, sans-serif;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+img .main_pic {
+    max-width: 900px;
+    height: 350px;
+}
+
+.minis {
+    height: 130px;
+    width: 65%;
+    display: flex;
+    margin: 0px;
+}
+
+ul {
+    width: 100%;
+}
+
+ul .mini_box {
+    height: 100px;
+    width: 100%;
+    padding: 5px
+}
+
+li {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title {
+    color: #d37027;
+    display: flex;
+    flex-direction: column;
+    max-height: 36px;
+    max-width: 73%;
+    margin: 0px;
+}
+
+.icon{
+    display: flex;
+    max-height: 30px;
+    max-width: 45px;
+}
+
+p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-height: 20px;
+    max-width: 100%;
+    margin: 0px;
+}
+
+.middle {
+    max-height: 100px;
+    width: 100%;
+    background-color: #090909;
+    padding: 15px;
+    display: flex;
+
+}
+
+h3.middle {
+    color: white;
+    margin: 0px;
+    width: 70%;
+}
+
+p.middle_p {
+    color: white;
+    margin: 0px;
+    width: 70%;
+}
+
+a.button {
+    background-color: #d37027;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+#bottom {
+    height: 400px;
+    width: 1000px;
+    background-color: #1a1a1a;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+#box {
+    height: 300px;
+    width: 225px;
+    margin: 10px;
+    display: inline-block;
+}
+
+p .p_box {
+    width: 225px;
+}
+
+
+h2.view {
+    color: #d37027;
+}
+
+.p_box {
+    color: white;
+    text-align: left;
+    max-height: 20px;
+    max-width: 225px;
+    margin: 0px;
+}
+
+.h4_box {
+    color: #d37027;
+    max-height: 36px;
+    text-align: left;
+    max-width: 73%;
+    margin: 0px;
+}
+
+.images {
+    border: solid 2px #363636;
+}
